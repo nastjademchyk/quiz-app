@@ -1,0 +1,40 @@
+.wrapper {
+  background-image: url('../../assets//images/homepage.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: fixed;
+  top: 140px;
+  color: white;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: white;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+.button:hover {
+  transform: scale(1.1);
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

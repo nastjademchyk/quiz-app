@@ -1,0 +1,13 @@
+.btn {
+  background-color: transparent;
+  border-radius: 15px;
+  border: 1px solid white;
+  color: white;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
