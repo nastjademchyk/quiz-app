@@ -1,7 +1,8 @@
+import StartBtn from '../StartBtn/StartBtn';
 import s from './JsQuiz.module.css';
 import React, { useState } from 'react';
 
-const JsQuiz = ({ questions }) => {
+const JsQuiz = ({ questions, onRetake }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
@@ -30,6 +31,7 @@ const JsQuiz = ({ questions }) => {
         <p>
           Your score: {score} out of {questions.length}
         </p>
+        <StartBtn text="Retake" onClick={onRetake} />
       </div>
     );
   }
