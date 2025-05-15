@@ -1,0 +1,22 @@
+.wrapper {
+  background-color: rgb(243, 58, 58);
+  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
