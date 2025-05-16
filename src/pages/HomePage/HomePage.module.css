@@ -10,11 +10,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 170px;
+  padding-top: 80px;
 }
 
 .title {
-  position: fixed;
   top: 90px;
   color: white;
 }
@@ -41,10 +40,10 @@
 
 @media (min-width: 768px) {
   .title {
-    top: 140px;
+    top: 130px;
   }
   .wrapper {
-    padding-top: 190px;
+    padding-top: 120px;
   }
 }
 
