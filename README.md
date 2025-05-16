@@ -7,7 +7,7 @@ the possibility to retake the test.
 ## 🛠 Tech Stack
 
 - React + Vite — app framework and bundler
-- React Router — routing (if used)
+- React Router — routing
 - react-timer-hook — timer for quiz time limit
 - react-icons — icons
 - CSS Modules — styling
