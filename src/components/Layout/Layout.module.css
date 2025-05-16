@@ -30,6 +30,10 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: rgb(229, 24, 24);
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
 }
 .details {
   display: flex;
@@ -59,13 +63,13 @@ footer {
   .details {
     gap: 10px;
   }
-
-  .contacts {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-  }
 }
 
 @media (min-width: 1440px) {
+  .contacts {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    gap: 20px;
+  }
 }
