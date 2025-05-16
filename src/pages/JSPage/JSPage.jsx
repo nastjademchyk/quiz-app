@@ -1,4 +1,4 @@
-import JsQuiz from '../../components/JsQuiz/JsQuiz';
+import Quiz from '../../components/Quiz/Quiz.jsx';
 import s from './JSPage.module.css';
 import { questions } from '../../data/jsquestions.js';
 import { useState } from 'react';
@@ -57,7 +57,7 @@ const JSPage = () => {
           <div className={s.timer}>
             ⏱ Time Left: {minutes}:{seconds.toString().padStart(2, '0')}
           </div>
-          <JsQuiz
+          <Quiz
             key={quizKey}
             questions={questions}
             onFinish={() => setQuizFinished(true)}

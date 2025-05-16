@@ -1,8 +1,8 @@
 import StartBtn from '../StartBtn/StartBtn';
-import s from './JsQuiz.module.css';
+import s from './Quiz.module.css';
 import React, { useState } from 'react';
 
-const JsQuiz = ({ questions, onRetake }) => {
+const Quiz = ({ questions, onRetake }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [score, setScore] = useState(0);
@@ -74,4 +74,4 @@ const JsQuiz = ({ questions, onRetake }) => {
   );
 };
 
-export default JsQuiz;
+export default Quiz;
