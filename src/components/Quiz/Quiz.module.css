@@ -2,7 +2,7 @@
   border: 1px solid white;
   padding: 20px;
   border-radius: 20px;
-  min-width: 600px;
+  min-width: 300px;
   min-height: 300px;
 
   display: flex;
@@ -44,4 +44,16 @@ ul {
   background-color: red;
   color: white;
   border-color: red;
+}
+
+@media (min-width: 768px) {
+  .quiz {
+    min-width: 500px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .quiz {
+    min-width: 600px;
+  }
 }
