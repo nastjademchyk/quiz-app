@@ -1,5 +1,10 @@
 .wrapper {
   background-color: rgb(243, 58, 58);
+  background-image: url(../../assets/images/cat.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 400px auto;
+
   color: white;
   height: 100vh;
   display: flex;
@@ -19,4 +24,16 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    background-size: 520px auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  .wrapper {
+    background-position: right;
+  }
 }
